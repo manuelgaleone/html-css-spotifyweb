@@ -126,6 +126,10 @@ body {
     text-align: right;
 }
 
+.align-right {
+    align-self: flex-end;
+}
+
 /*Header*/
 .main-header {
     background-color: rgb(121, 121, 121);
@@ -141,10 +145,16 @@ body {
 }
 
 .upgrade-button {
+    display: block;
     padding: 15px;
+    text-align: center;
+    width: 250px;
     border: 2px solid white;
-    border-radius: 25px;
-    width: 200px;
+    border-radius:50px;
+    margin-left: auto;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
 }
 
 /*Main*/
