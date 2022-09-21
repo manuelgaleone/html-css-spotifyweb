@@ -134,6 +134,14 @@ body {
     align-self: flex-end;
 }
 
+.color-gray {
+    color: gray;
+}
+
+.padding-left-10 {
+    padding-left: 10px;
+}
+
 /*Header*/
 .main-header {
     background-color: rgb(121, 121, 121);
@@ -195,7 +203,6 @@ body {
 }
 
 .add-playlist-title {
-    color: gray;
     font-weight: 700;
     margin-top: auto;
     margin-bottom: auto;
@@ -203,7 +210,6 @@ body {
 }
 
 .playlist-name {
-    color: gray;
     font-size: 15px;
 }
 
@@ -212,6 +218,22 @@ body {
     position: fixed;
     width: 100%;
     z-index: 1000;
-    background-color: rgb(0, 0, 182);
-    height: 120px;
+    background-color: rgb(54, 54, 54);
+    padding: 25px;
+}
+
+.song-thumb {
+    width: 50px;
+}
+
+.song-name {
+    font-size: 13px;
+}
+
+.song-info {
+    padding-left: 10px;
+}
+
+.song-icons {
+    padding-left: 35px;
 }
