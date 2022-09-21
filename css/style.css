@@ -167,10 +167,10 @@ body {
 
 /*Header*/
 .main-header {
-    background-color: rgb(121, 121, 121);
+    background-color: #080B12;
     padding: 25px;
-    z-index: 998;
     position: fixed;
+    z-index: 0;
     width: 100%;
 }
 
@@ -198,10 +198,10 @@ body {
 .sidebar {
     padding: 25px;
     background-color: rgb(0, 0, 0);
-    height: 100vh;
     width: 275px;
-    position: fixed;
-    z-index: 999;
+    height: calc(100vh - 103.133px);
+    position: relative;
+    z-index: 1;
 }
 
 .menu-img {
@@ -238,10 +238,7 @@ body {
 
 /*Footer*/
 .footer-container {
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-    background-color: rgb(54, 54, 54);
+    background-color: #282828;
     padding: 25px;
 }
 
@@ -281,4 +278,17 @@ body {
     background-color: gray;
     width: 120px;
     height: 5px;
+}
+
+.volume-rectangle-process {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: 55px;
+    height: 5px;
+    position: absolute;
+    right: 1px;
+}
+
+.volume-icons-container {
+    margin-left: auto;
 }
