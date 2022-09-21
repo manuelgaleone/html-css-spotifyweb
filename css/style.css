@@ -101,6 +101,11 @@ body {
 }
 
 /*Main*/
-
+.sidebar {
+    padding: 25px;
+    background-color: black;
+    height: 100vh;
+    width: 275px;
+}
 
 /*Footer*/
