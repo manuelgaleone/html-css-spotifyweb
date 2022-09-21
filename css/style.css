@@ -114,6 +114,10 @@ body {
     padding-top: 10px;
 }
 
+.inline {
+    display: inline-block;
+}
+
 /*Header*/
 .main-header {
     background-color: black;
