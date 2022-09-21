@@ -286,9 +286,18 @@ body {
     width: 55px;
     height: 5px;
     position: absolute;
-    right: 1px;
+    right: 100px;
 }
 
 .volume-icons-container {
     margin-left: auto;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+    right: 75px;
 }
