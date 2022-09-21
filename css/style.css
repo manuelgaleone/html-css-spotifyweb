@@ -118,25 +118,30 @@ body {
     display: inline-block;
 }
 
+.img {
+    max-width: 100%;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
 /*Header*/
 .main-header {
-    background-color: black;
-    height: 100px;
+    background-color: rgb(121, 121, 121);
     padding: 25px;
+    z-index: 998;
     position: fixed;
     width: 100%;
-    z-index: 999;
 }
 
 .logo {
-    height: 50px;
-    background-color: white;
-    width: 150px;
+    width: 175px;
+    padding-bottom: 20px;
 }
 
 .upgrade-button {
-    height: 50px;
-    background-color: white;
+    padding: 15px;
     border: 2px solid white;
     border-radius: 25px;
     width: 200px;
@@ -147,11 +152,11 @@ body {
 /*Sidebar*/
 .sidebar {
     padding: 25px;
-    background-color: rgb(46, 46, 46);
+    background-color: rgb(0, 0, 0);
     height: 100vh;
     width: 275px;
     position: fixed;
-    top: 100px;
+    z-index: 999;
 }
 
 .sidebar-menu-icons {
@@ -187,6 +192,22 @@ body {
     width: 50px;
     height: 50px;
     font-size: 25px;
+}
+
+.add-playlist-title {
+    background-color: white;
+    width: 75px;
+    height: 20px;
+    color: white;
+    font-weight: 700;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.playlist-name {
+
 }
 
 /*Footer*/
