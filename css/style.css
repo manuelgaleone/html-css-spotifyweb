@@ -19,6 +19,13 @@ body {
     flex-direction: row;
 }
 
+.row-space-around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
 .row-space-between {
     display: flex;
     flex-direction: row;
@@ -142,6 +149,22 @@ body {
     padding-left: 10px;
 }
 
+.padding-left-20 {
+    padding-left: 20px;
+}
+
+.padding-right-20 {
+    padding-right: 20px;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.margin-left-auto {
+    margin-left: auto;
+}
+
 /*Header*/
 .main-header {
     background-color: rgb(121, 121, 121);
@@ -236,4 +259,26 @@ body {
 
 .song-icons {
     padding-left: 35px;
+}
+
+.player-icons {
+    font-size: 15px;
+}
+
+.player-icon {
+    font-size: 25px;
+}
+
+.time-rectangle {
+    height: 5px;
+    background-color: gray;
+    width: 400px;
+
+}
+
+.volume-rectangle {
+    display: block;
+    background-color: gray;
+    width: 120px;
+    height: 5px;
 }
