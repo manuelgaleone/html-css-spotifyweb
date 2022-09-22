@@ -294,10 +294,22 @@ body {
 }
 
 .circle {
+    display: none;
     width: 10px;
     height: 10px;
     border-radius: 20px;
     background-color: white;
     position: relative;
     right: 75px;
+}
+
+/*Songs*/
+.songs {
+    padding-top: 130px;
+    padding-left: 135px;
+}
+
+/*Effects*/
+.circle:hover {
+    display: block;
 }
