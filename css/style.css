@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #141922;
 }
 
 /*Container, Row and Col*/
@@ -234,6 +235,34 @@ body {
 
 .playlist-name {
     font-size: 15px;
+}
+
+.app {
+    padding-bottom: 15px;
+}
+
+.user-info {
+    padding-top: 15px;
+    border-top: 1px solid grey;
+}
+
+.avatar {
+    background-color: grey;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
+
+.profile {
+    width: 55%;
+}
+
+.user-info > h4 {
+    padding-left: 10px;
+}
+
+.install-app > h4 {
+    padding-left: 10px;
 }
 
 /*Footer*/
