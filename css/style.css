@@ -146,6 +146,10 @@ body {
     align-self: flex-end;
 }
 
+.align-left {
+    align-self: flex-start;
+}
+
 .color-gray {
     color: gray;
 }
