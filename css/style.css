@@ -220,7 +220,11 @@ body {
     height: 30px;
     width: 5px;
     position: relative;
-    left: -25px;
+    left: -20px;
+}
+
+.home-menu-item {
+    margin-left: -5px;
 }
 
 .active-orizzontal {
@@ -336,6 +340,12 @@ body {
 
 }
 
+.time-process {
+    background-color: white;
+    width: 50px;
+    height: 5px;
+}
+
 .volume-rectangle {
     display: block;
     background-color: gray;
@@ -344,12 +354,9 @@ body {
 }
 
 .volume-rectangle-process {
-    display: block;
     background-color: rgb(255, 255, 255);
-    width: 55px;
+    width: 50px;
     height: 5px;
-    position: absolute;
-    right: 100px;
 }
 
 .volume-icons-container {
@@ -360,10 +367,22 @@ body {
     display: none;
     width: 10px;
     height: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: white;
     position: relative;
-    right: 75px;
+    left: 45px;
+    top: -2.5px;
+}
+
+.time-circle {
+    display: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    left: 45px;
+    top: -7px;
 }
 
 /*Songs*/
@@ -405,4 +424,53 @@ body {
 
 .song-title {
     font-size: 18px;
+}
+
+/*Effects*/
+.volume-rectangle-process:hover > .circle {
+    display: block;
+    cursor: pointer;
+}
+
+.time-rectangle:hover > .time-circle {
+    display: block;
+    cursor: pointer;
+}
+
+.icons:hover {
+    cursor: pointer;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+.add-playlist > h4:hover {
+    color: white;
+}
+
+.upgrade-button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+h4:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.home > span:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.plus-button:hover {
+    background-color: white;
+    cursor: pointer;
 }
