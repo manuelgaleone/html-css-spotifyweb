@@ -197,12 +197,17 @@ body {
 
 /*Sidebar*/
 .sidebar {
+    overflow: hidden;
     padding: 25px;
     background-color: rgb(0, 0, 0);
     width: 275px;
     height: calc(100vh - 103.133px);
     position: relative;
     z-index: 1;
+}
+
+.sidebar-elements {
+    height: 100%;
 }
 
 .menu-img {
