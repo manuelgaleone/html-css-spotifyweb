@@ -170,9 +170,7 @@ body {
 .main-header {
     background-color: #080B12;
     padding: 25px;
-    position: fixed;
-    z-index: 0;
-    width: 100%;
+
 }
 
 .logo {
@@ -187,7 +185,6 @@ body {
     width: 250px;
     border: 2px solid white;
     border-radius:50px;
-    margin-left: auto;
     text-decoration: none;
     color: white;
     font-weight: 500;
@@ -339,8 +336,8 @@ body {
 
 /*Songs*/
 .songs {
-    padding-top: 130px;
-    padding-left: 135px;
+    width: calc(100% - 275px);
+    
 }
 
 /*Effects*/
