@@ -401,8 +401,6 @@ body {
 
 .song-album {
     max-width: 100%;
-    width: 300px;
-    height: 300px;
 }
 
 .central-content {
@@ -410,8 +408,6 @@ body {
 }
 
 .artist {
-    width: 300px;
-    height: 300px;
     object-fit: fill;
     border-radius: 300px;
 }
@@ -590,6 +586,6 @@ img:hover {
         display: inline-block;
     }
 
-    
+
 
 }
