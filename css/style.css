@@ -638,12 +638,157 @@ img:hover {
 }
 
 /*FROM 768 TO 1200*/
-@media screen and (min-width:769) and (max-width:1199) {
+@media screen and (min-width:769px) and (max-width:1200px) {
 
-    .main-container {
-        width: auto;
+    .sidebar {
+        display: block;
+        overflow: hidden;
+        padding: 25px;
+        background-color: rgb(0, 0, 0);
+        width: 200px;
     }
 
+    .main-container {
+        max-width: auto;
+    }
+
+    .col-2 {
+        width: calc(100% / 12 * 3);
+    }
+
+    .col-3 {
+        width: calc(100% / 12 * 4);
+    }
+
+    .col-6-md {
+        width: calc(100% / 12 * 4);
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .active-orizzontal {
+        left: 15px;
+    }
+
+    .songs {
+        width: calc(100% - 200px);
+        padding-bottom: 0;
+        overflow: auto;
+    }
+
+    /*Header*/
+
+    .main-header {
+        width: 100%;
+    }
+
+    .upgrade-button {
+        display: block;
+        padding: 15px;
+        text-align: center;
+        width: 200px;
+        border: 2px solid white;
+        border-radius:50px;
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        font-size: 13px;
+    }
+
+    .main-menu-item {
+        padding:15px;
+    }
+
+    /*Sidebar*/
+
+    .logo {
+        width: 125px;
+    }
+
+    .menu-img {
+        width: 20px;
+    }
+
+    .menu-title {
+        font-size: 12px;
+    }
+
+    .playlist-title {
+        font-size: 10px;
+    }
+
+    .plus-button {
+        width: 35px;
+        height: 35px;
+    }
+
+    .fa-plus {
+        font-size: 15px;
+    }
+
+    .add-playlist-title {
+        font-size: 12px;
+    }
+
+    .playlist-name {
+        font-size: 13px;
+    }
+        
+    .install-app > h4 {
+        font-size: 12px;
+    }
+
+
+    .user-info > h4 {
+        font-size: 13px;
+    }
+
+    /*Footer*/
+
+    .footer-container {
+        background-color: #282828;
+        padding: 25px;
+        height: 105px;
+        width: auto;
+    } 
+
+    .volume-rectangle {
+        display: block;
+        background-color: gray;
+        width: 95px;
+        height: 5px;
+    }
+
+    .time-rectangle {
+        height: 5px;
+        background-color: gray;
+        width: 125px;
+        
+    }
+
+    .song-player-row > .time {
+        margin-left: 25px;
+    }
+
+    /*Songs album*/
+
+    .section-title {
+        font-size: 21px;
+    }
+
+    .song-album {
+        object-fit: contain;
+    }
+
+    .song-title {
+        font-size: 13px;
+    }
+    
+    .heavy, .stranger, .a-quiet-place, .split, .a-cure, .sinister {
+        padding: 10px;
+    }
 
 
 }
