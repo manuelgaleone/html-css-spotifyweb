@@ -394,6 +394,10 @@ body {
     overflow: auto;
 }
 
+.heavy, .stranger, .a-quiet-place, .split, .a-cure, .sinister {
+    padding: 10px;
+}
+
 .section-title {
     color: white;
     font-size: 30px;
@@ -476,6 +480,14 @@ img:hover {
 /*Responsive Tablet*/
 @media screen and (max-width:768px) {
 
+    .sidebar {
+        display: block;
+        overflow: hidden;
+        padding: 25px;
+        background-color: rgb(0, 0, 0);
+        width: 200px;
+    }
+
     .container {
         max-width: 768px;
     }
@@ -490,6 +502,12 @@ img:hover {
 
     .active-orizzontal {
         left: 15px;
+    }
+
+    .songs {
+        width: calc(100% - 200px);
+        padding-bottom: 0;
+        overflow: auto;
     }
 
     /*Header*/
@@ -518,7 +536,7 @@ img:hover {
     /*Sidebar*/
 
     .logo {
-        width: 150px;
+        width: 125px;
     }
 
     .menu-img {
