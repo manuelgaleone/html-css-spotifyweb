@@ -489,13 +489,17 @@ img:hover {
     }
 
     .col-2 {
-        width: calc(100% / 12 * 4);
+        width: calc(100% / 12 * 3);
     }
 
-    .song-album {
+    .img {
         max-width: 100%;
-        width: 300px;
-        height: 300px;
+    }
+
+    /*Header*/
+
+    .main-header {
+        width: 100%;
     }
 
     .upgrade-button {
@@ -514,6 +518,8 @@ img:hover {
     .main-menu-item {
         padding:15px;
     }
+
+    /*Sidebar*/
 
     .logo {
         width: 150px;
@@ -556,4 +562,57 @@ img:hover {
     .user-info > h4 {
         font-size: 13px;
     }
+
+    /*Footer*/
+
+    .footer-container {
+        background-color: #282828;
+        padding: 25px;
+        height: 105px;
+        width: 100%;
+    } 
+
+    /*Songs album*/
+
+    .section-title {
+        font-size: 21px;
+    }
+
+    .song-album {
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+    }
+
+    .heavy {
+        padding: 25px;
+    }
+
+    .stranger {
+        padding: 25px;
+    }
+
+    .a-quiet-place {
+        padding: 25px;
+    }
+
+    .split {
+        padding: 25px;
+    }
+
+    .a-cure {
+        padding: 25px;
+    }
+
+    .sinister {
+        padding: 25px;
+    }
+
+    .artist {
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+    }
+
+
 }
