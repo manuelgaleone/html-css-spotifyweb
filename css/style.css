@@ -489,7 +489,11 @@ img:hover {
     }
 
     .col-2 {
-        width: calc(100% / 12 * 5);
+        width: calc(100% / 12 * 4);
+    }
+
+    .time-rectangle {
+        width: auto;
     }
 
 }
