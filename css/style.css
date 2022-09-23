@@ -617,10 +617,6 @@ img:hover {
         
     }
 
-    .song-player-row > .time {
-        margin-left: 25px;
-    }
-
     /*Songs album*/
 
     .section-title {
@@ -775,10 +771,6 @@ img:hover {
         
     }
 
-    .song-player-row > .time {
-        margin-left: 25px;
-    }
-
     /*Songs album*/
 
     .section-title {
@@ -856,12 +848,6 @@ img:hover {
 
     .active-orizzontal {
         left: 15px;
-    }
-
-    .songs {
-        width: calc(100% - 200px);
-        padding-bottom: 0;
-        overflow: auto;
     }
 
     /*Header*/
@@ -943,7 +929,7 @@ img:hover {
     .volume-rectangle {
         display: block;
         background-color: gray;
-        width: 95px;
+        width: 60px;
         height: 5px;
     }
 
@@ -954,9 +940,6 @@ img:hover {
         
     }
 
-    .song-player-row > .time {
-        margin-left: 25px;
-    }
 
     /*Songs album*/
 
@@ -974,6 +957,12 @@ img:hover {
     
     .heavy, .stranger, .a-quiet-place, .split, .a-cure, .sinister {
         padding: 10px;
+    }
+
+    .volume-rectangle-process {
+        background-color: rgb(255, 255, 255);
+        width: 30px;
+        height: 5px;
     }
 
 }
