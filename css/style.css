@@ -417,13 +417,11 @@ body {
 
 .artist {
     border-radius: 300px;
-    width: 248px;
-    height: 248px;
+    max-width: 100%;
 }
 
 .artist-einaudi {
     border-radius: 300px;
-    padding-left: 15px;
 }
 
 .song-title {
@@ -640,18 +638,6 @@ img:hover {
     .heavy, .stranger, .a-quiet-place, .split, .a-cure, .sinister {
         padding: 10px;
     }
-
-    .artist {
-        border-radius: 300px;
-        width: 264px;
-        height: 264px;
-    }
-
-    .artist-einaudi {
-        border-radius: 300px;
-        padding-left: 0;
-    }
-
 }
 
 /*FROM 768 TO 1200*/
@@ -824,7 +810,7 @@ img:hover {
     }
 
     .main-container {
-        max-width: 768px;
+        max-width: 100%;
     }
 
     .col-2 {
@@ -963,17 +949,6 @@ img:hover {
     
     .heavy, .stranger, .a-quiet-place, .split, .a-cure, .sinister {
         padding: 10px;
-    }
-
-    .artist {
-        border-radius: 300px;
-        width: 264px;
-        height: 264px;
-    }
-
-    .artist-einaudi {
-        border-radius: 300px;
-        padding-left: 0;
     }
 
 }
