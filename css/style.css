@@ -139,10 +139,6 @@ body {
     display: inline-block;
 }
 
-.img {
-    max-width: 100%;
-}
-
 .text-align-right {
     text-align: right;
 }
@@ -416,8 +412,9 @@ body {
 }
 
 .artist {
-    object-fit: fill;
     border-radius: 300px;
+    width: 300px;
+    height: 300px;
 }
 
 .artist-einaudi {
