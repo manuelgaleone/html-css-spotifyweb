@@ -497,7 +497,7 @@ img:hover {
     }
 
     .col-2 {
-        width: calc(100% / 12 * 3);
+        width: calc(100% / 12 * 6);
     }
 
     .col-3 {
@@ -638,3 +638,12 @@ img:hover {
 }
 
 /*FROM 768 TO 1200*/
+@media screen and (min-width:769) and (max-width:1199) {
+
+    .main-container {
+        width: auto;
+    }
+
+
+
+}
