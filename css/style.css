@@ -413,11 +413,7 @@ body {
 }
 
 .artist-einaudi {
-    width: 300px;
-    height: 300px;
-    object-fit: fill;
     border-radius: 300px;
-    padding-left: 50px;
 }
 
 .song-title {
@@ -488,8 +484,12 @@ img:hover {
         width: calc(100% / 12 * 3);
     }
 
-    .img {
+    img {
         max-width: 100%;
+    }
+
+    .active-orizzontal {
+        left: 15px;
     }
 
     /*Header*/
@@ -578,14 +578,13 @@ img:hover {
         object-fit: contain;
     }
 
-    .artist {
-        object-fit: contain;
+    .song-title {
+        font-size: 13px;
     }
-
-    .heavy-metal {
-        display: inline-block;
+    
+    .heavy, .stranger, .a-quiet-place, .split, .a-cure, .sinister {
+        padding: 10px;
     }
-
 
 
 }
