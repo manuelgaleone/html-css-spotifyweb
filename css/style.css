@@ -579,40 +579,17 @@ img:hover {
     }
 
     .song-album {
-        width: 200px;
-        height: 200px;
         object-fit: contain;
-    }
-
-    .heavy {
-        padding: 25px;
-    }
-
-    .stranger {
-        padding: 25px;
-    }
-
-    .a-quiet-place {
-        padding: 25px;
-    }
-
-    .split {
-        padding: 25px;
-    }
-
-    .a-cure {
-        padding: 25px;
-    }
-
-    .sinister {
-        padding: 25px;
     }
 
     .artist {
-        width: 300px;
-        height: 300px;
         object-fit: contain;
     }
 
+    .heavy-metal {
+        display: inline-block;
+    }
+
+    
 
 }
