@@ -481,7 +481,7 @@ img:hover {
     cursor: pointer;
 }
 
-/*Responsive Tablet*/
+/*TO 768*/
 @media screen and (max-width:768px) {
 
     .sidebar {
@@ -612,6 +612,10 @@ img:hover {
         
     }
 
+    .song-player-row > .time {
+        margin-left: 25px;
+    }
+
     /*Songs album*/
 
     .section-title {
@@ -632,3 +636,5 @@ img:hover {
 
 
 }
+
+/*FROM 768 TO 1200*/
