@@ -940,6 +940,63 @@ img:hover {
         
     }
 
+    .song-thumb {
+        width: 25px;
+    }
+
+    .song-name {
+        font-size: 9px;
+    }
+
+    .song-author {
+        font-size: 10px;
+    }
+
+    .song-icons {
+        padding-left: 10px;
+    }
+
+    .icons-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .song-icon {
+        padding-left: 0;
+    }
+
+    .volume-icons-flex {
+        font-size: 7px;
+    }
+
+    .icons {
+        font-size: 10px;
+    }
+
+    .fa-volume-high {
+        padding-right: 10px;
+    }
+
+    .time > h6 {
+        font-size: 10px;
+    }
+
+    .time-icons {
+        margin: 0;
+    }
+
+    .time {
+        margin: 0;
+    }
+
+    .time-rectangle {
+        width: 70px;
+    }
+
+    .time-process {
+        width: 31px;
+    }
 
     /*Songs album*/
 
@@ -964,5 +1021,7 @@ img:hover {
         width: 30px;
         height: 5px;
     }
+
+
 
 }
